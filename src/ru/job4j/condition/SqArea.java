@@ -1,10 +1,10 @@
 package ru.job4j.condition;
 
 public class SqArea {
-    public static double square(double p, double k){
+    public static double square(double p, double k) {
         double h = p / (2 * (k + 1)); // формула высоты
-        double L = h * k;             // формула длины
-        double rsl = L * h;           // формула площади
+        double l = h * k;             // формула длины
+        double rsl = l * h;           // формула площади
         return rsl;
     }
 

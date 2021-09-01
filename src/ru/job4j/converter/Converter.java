@@ -5,15 +5,18 @@ public class Converter {
         float rsl = value / 70; // формула перевода рублей в евро
         return rsl;
     }
+
     public static float euroToRuble(float value) {
         float rsl = value * 70; // формула перевода евро в рубли
         return rsl;
     }
-    public static float rubleToDollar(float value){
+
+    public static float rubleToDollar(float value) {
         float rsl = value / 60; // формула перевода рублей в доллары
         return rsl;
     }
-    public static float dollarToRuble(float value){
+
+    public static float dollarToRuble(float value) {
         float rsl = value * 60; // формула перевода доллара в рубли
         return rsl;
     }
