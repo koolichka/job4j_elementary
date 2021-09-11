@@ -32,7 +32,7 @@ public class Converter {
         float expectedRTD = 2.3333333F;
         float outRTD = Converter.rubleToDollar(in);
         boolean passedRTD = expectedRTD == outRTD;
-        System.out.println("140 rubles are 2.3333333 dollar. Test result : " + passed);
+        System.out.println("140 rubles are 2.3333333 dollar. Test result : " + passedRTD);
 
         float expectedETR = 140;
         float outETR = Converter.euroToRuble(inR);
