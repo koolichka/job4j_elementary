@@ -9,8 +9,8 @@ public class SqArea {
     }
 
     public static void main(String[] args) {
-        double p = 6; // периметр
-        double k = 2; // коэффициент
+        double p = 20; // периметр
+        double k = 4; // коэффициент
         double s = 2; // площадь
         double result1 = SqArea.square(p, k);
         System.out.println("p = " + p + ", k = " + k + ", s = " + s + ", real = " + result1);
