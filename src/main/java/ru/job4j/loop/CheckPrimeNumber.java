@@ -12,7 +12,6 @@ public class CheckPrimeNumber {
                 prime = true;
                 break;
             }
-
         }
         return prime;
     }
