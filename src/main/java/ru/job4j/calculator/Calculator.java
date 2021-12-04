@@ -3,7 +3,6 @@ package ru.job4j.calculator;
 import java.util.concurrent.Callable;
 
 public class Calculator {
-
     public static void plus(int first, int second) {
         int result = first + second;
         System.out.println(result);
